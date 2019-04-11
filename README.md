@@ -1,2 +1,2 @@
 # Intro-python
-Simple python stuff 
+Repository for simple python scripts written for a computer science class
