@@ -8,7 +8,8 @@
 #whereas (int_rate/1200) is to get the interest rate into a percent form and then divide by number of years. 
 
 
-amount_owe = float(input('Enter the amount you owe: '))   #Principle loan amount
+amount_owe_comma = input('Enter the amount you owe: ')  #Principle loan amount, taken as string
+amount_owe = float(amount_owe_comma.replace(",",""))           #comma's removed, string turned to int.
 int_rate = float(input('Enter the interest rate [%]:'))   #Annual interest rate divided by 100
 num_years = float(input('Enter the number of years you want to spend to pay back loan: '))   #number of years
 
